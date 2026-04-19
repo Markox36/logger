@@ -1,5 +1,4 @@
 /dist
-/dist-cjs
 /node_modules
 # IDEs
 .vscode/

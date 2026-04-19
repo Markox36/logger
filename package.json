@@ -1,11 +1,7 @@
 {
   "name": "@markox36/logger",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Lightweight, customizable and colorized logger for Node.js",
-  "type": "module",
-  "main": "./dist-cjs/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "private": false,
   "license": "MIT",
   "author": {
@@ -13,21 +9,10 @@
     "email": "hello@markox.dev",
     "url": "https://markox.dev"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist-cjs/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "files": [
-    "dist",
-    "dist-cjs"
-  ],
+  "main": "dist/index.js",
+	"types": "dist/index.d.ts",
   "scripts": {
-    "build": "npm run build:esm && npm run build:cjs && node ./scripts/write-cjs-package.js",
-    "build:esm": "tsc -p tsconfig.json",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build": "tsc -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
