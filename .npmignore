@@ -4,6 +4,7 @@ logs
 *.log
 *.ts
 tsconfig.json
+tsconfig.tsbuildinfo
 scripts
 .vscode
 .idea
