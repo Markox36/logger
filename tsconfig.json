@@ -1,23 +1,20 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "declaration": true,
-    "declarationMap": false,
-    "sourceMap": false,
-    "strict": true,
-    "noImplicitAny": true,
-    "noUncheckedIndexedAccess": true,
-    "useUnknownInCatchVariables": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "verbatimModuleSyntax": true,
-    "skipLibCheck": true,
-    "types": ["node"]
-  },
-  "include": ["src"],
-  "exclude": ["dist", "dist-cjs", "node_modules", "**/*.test.ts"]
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "node16",
+		"moduleResolution": "node16",
+		"ignoreDeprecations": "5.0",
+		"esModuleInterop": true,
+		"rootDir": "src",
+		"outDir": "dist",
+		"declaration": true,
+		"noEmitOnError": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"composite": true,
+		"skipLibCheck": true,
+		"types": ["node"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
