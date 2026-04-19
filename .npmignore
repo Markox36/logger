@@ -12,3 +12,17 @@ coverage
 .DS_Store
 README.md
 pnpm-lock.yaml
+src
+node_modules
+logs
+*.log
+*.ts
+tsconfig.json
+scripts
+.vscode
+.idea
+test
+coverage
+.DS_Store
+README.md
+pnpm-lock.yaml

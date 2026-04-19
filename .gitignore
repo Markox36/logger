@@ -1,5 +1,6 @@
 /dist
-/node_modules
+node_modules/
+tsconfig.tsbuildinfo
 # IDEs
 .vscode/
 .idea/
