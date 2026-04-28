@@ -1,6 +1,6 @@
 {
   "name": "@markox36/logger",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lightweight, customizable and colorized logger for Node.js",
   "type": "module",
   "main": "./dist-cjs/index.js",
@@ -12,6 +12,10 @@
     "name": "Markox",
     "email": "hello@markox.dev",
     "url": "https://markox.dev"
+  },
+  "repository": {
+    "url": "https://github.com/Markox36/logger",
+    "type": "git"
   },
   "exports": {
     ".": {
